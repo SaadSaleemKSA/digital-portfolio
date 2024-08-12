@@ -359,7 +359,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -375,6 +377,15 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#things-i-learned">Things I learned</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#things-i-found-difficult">Things I found difficult</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -401,6 +412,22 @@ document.write(`
 <li class="toctree-l1"><a class="reference internal" href="citations.html">Acknowledgments</a></li>
 </ul>
 </div>
+<section id="things-i-learned">
+<h2>Things I learned<a class="headerlink" href="#things-i-learned" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>Understanding MyST Markdown</strong>: Learning how to use MyST Markdown directives effectively to format and structure the content.</p></li>
+<li><p><strong>Grid Layouts</strong>: Implementing grid layouts with <code class="docutils literal notranslate"><span class="pre">{grid}</span></code> and <code class="docutils literal notranslate"><span class="pre">{grid-item-card}</span></code> directives to organize content.</p></li>
+<li><p><strong>Citation Management</strong>: Integrating citations and bibliographies into the book.</p></li>
+</ul>
+</section>
+<section id="things-i-found-difficult">
+<h2>Things I found difficult<a class="headerlink" href="#things-i-found-difficult" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>Complex Grid Layouts</strong>: Adjusting the grid layout to ensure proper alignment and distribution of items.</p></li>
+<li><p><strong>Citation Syntax</strong>: Configuring the correct syntax for citations and ensuring they are properly referenced in the bibliography.</p></li>
+<li><p><strong>Jupyter Book Build Issues</strong>: Troubleshooting errors related to building the Jupyter Book and resolving configuration issues.</p></li>
+</ul>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -448,6 +475,22 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#things-i-learned">Things I learned</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#things-i-found-difficult">Things I found difficult</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

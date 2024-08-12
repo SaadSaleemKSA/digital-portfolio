@@ -6,7 +6,7 @@ The contents of CV and Cover letter are modified from {cite}`logoface`the output
 
 ## References
 
-```{bibliography}
-   - references.bib
+```{bibliography} references.bib
+:style: plain
 ```
 
